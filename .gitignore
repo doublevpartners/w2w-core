@@ -6,6 +6,7 @@ node_modules/
 
 # dotenv enviroment variables file
 environments/
+.env
 
 # dist
 dist/

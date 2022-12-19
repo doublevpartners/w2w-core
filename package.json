@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
+    "dev": "ts-node-dev src/server.ts --exec",
     "lint": "eslint src/ --fix",
     "build": "tsc -p ."
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.11.1",
+    "apollo-server-express": "^3.11.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -21,7 +22,8 @@
     "graphql": "^15.8.0",
     "mongoose": "^6.7.1",
     "morgan": "^1.10.0",
-    "type-graphql": "^1.1.1"
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.11"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
